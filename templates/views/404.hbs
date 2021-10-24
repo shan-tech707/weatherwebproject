@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerLinks}}
+</head>
+
+<body>
+
+    {{>navbar}}
+
+    <!-- main div -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+
+                <div class="row">
+
+                    <!-- right side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errImg">
+                            <img src="images/404.png" alt="zeeshan" class="img-fluid" title="zee">
+                        </figure>
+                        <p>Welcome to Zee Tech World</p>
+                        <h4>{{errorMessage}}</h4>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    {{>footer}}
+
+</body>
+
+</html>
